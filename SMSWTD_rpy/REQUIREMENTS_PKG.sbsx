@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 6d0a5512-5017-4932-88ae-4ff58a32f8c0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQUIREMENTS_PKG</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::10:44:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::11:14:8</_modifiedTime>
+			<_lastID type="a">9</_lastID>
+			<weakCGTime type="a">12.16.2024::10:44:39</weakCGTime>
+			<strongCGTime type="a">12.16.2024::10:44:39</strongCGTime>
+			<_defaultComposite type="s">GUID 55a73ed5-f181-4356-a384-76bda0ecc347</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">12.16.2024::9:33:53</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID ed3af6d5-d5f3-4ac6-868a-7d674195a05d</value>
+				<value>GUID c8748b03-84d7-463d-8b2f-291e2cef1ca4</value>
+				<value>GUID 36905b46-105c-4a11-a08f-4c868a69f709</value>
+				<value>GUID 24206778-7341-433e-a261-0e3cbe3c8217</value>
+				<value>GUID 55a73ed5-f181-4356-a384-76bda0ecc347</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID ed3af6d5-d5f3-4ac6-868a-7d674195a05d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SatelliteDataAcquisitionSystem</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::9:27:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::9:27:12</_modifiedTime>
+			<reqID type="a">111</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID c8748b03-84d7-463d-8b2f-291e2cef1ca4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_01</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::9:27:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::9:27:18</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<ISubsystem type="e">
+			<fileName type="a">FUNCTIONAL_REQUIREMENT_PKG</fileName>
+			<_id type="a">GUID 36905b46-105c-4a11-a08f-4c868a69f709</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">NON_FUNCTIONAL_REQUIREMENT_PKG</fileName>
+			<_id type="a">GUID 24206778-7341-433e-a261-0e3cbe3c8217</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 55a73ed5-f181-4356-a384-76bda0ecc347</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

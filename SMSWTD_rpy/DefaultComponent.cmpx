@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<IComponent type="e">
+			<_id type="a">GUID 805e3294-d4d0-420e-8ead-6e708d0e3501</_id>
+			<_myState type="a">139264</_myState>
+			<_name type="a">DefaultComponent</_name>
+			<_modifiedTimeWeak type="a">1.6.2025::18:30:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.6.2025::18:48:58</_modifiedTime>
+			<m_buildType type="a">Executable</m_buildType>
+			<m_configActive type="r">
+				<ICodeGenConfigInfoHandle type="e">
+					<_hm2Class type="a">ICodeGenConfigInfo</_hm2Class>
+					<_hid type="a">GUID 9418307d-9762-449a-9926-71fde7b5c8b6</_hid>
+				</ICodeGenConfigInfoHandle>
+			</m_configActive>
+			<HandlesInMe type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hname type="a">SysML</_hname>
+							<_hid type="a">GUID d9689b73-885e-44c4-896b-de43defa0a33</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">$OMROOT\Settings\MISRA\MISRAC++.sbs</_hfilename>
+							<_hname type="a">MISRAC++</_hname>
+							<_hid type="a">GUID 5717d983-7bb5-4aba-bdc8-41bcb977f568</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Default.sbsx</_hfilename>
+							<_hname type="a">Default</_hname>
+							<_hid type="a">GUID c6283f3e-66ee-4474-bc74-8bb822d3a3c8</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\SMSWTD.sbsx</_hfilename>
+							<_hname type="a">SMSWTD</_hname>
+							<_hid type="a">GUID 1548b6b8-19ba-4bc4-9ef5-18210cd90694</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\ANALYSIS.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD</_hsubsystem>
+							<_hname type="a">ANALYSIS</_hname>
+							<_hid type="a">GUID 49da9dbb-2be9-4cf7-94c1-576e4fa5abb2</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\PROBLEM_DEFINITION.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::ANALYSIS</_hsubsystem>
+							<_hname type="a">PROBLEM_DEFINITION</_hname>
+							<_hid type="a">GUID 468ef03e-31d4-48f0-9319-0e716e9badaa</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\REQUIREMENTS.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::ANALYSIS</_hsubsystem>
+							<_hname type="a">REQUIREMENTS</_hname>
+							<_hid type="a">GUID 6d0a5512-5017-4932-88ae-4ff58a32f8c0</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\FUNCTIONAL_REQUIREMENT_PKG.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::ANALYSIS::REQUIREMENTS</_hsubsystem>
+							<_hname type="a">FUNCTIONAL_REQUIREMENT_PKG</_hname>
+							<_hid type="a">GUID 36905b46-105c-4a11-a08f-4c868a69f709</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\WeatherMonitoringAndForecasting.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::ANALYSIS::REQUIREMENTS::FUNCTIONAL_REQUIREMENT_PKG</_hsubsystem>
+							<_hname type="a">WeatherMonitoringAndForecasting</_hname>
+							<_hid type="a">GUID 65affc54-825e-48df-a1cc-dedc5157f2fe</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\ActivityDig.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::ANALYSIS::REQUIREMENTS::FUNCTIONAL_REQUIREMENT_PKG::WeatherMonitoringAndForecasting</_hsubsystem>
+							<_hname type="a">ActivityDig</_hname>
+							<_hid type="a">GUID b81b4a0b-6246-4dfc-a607-178da1e28e3a</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\TsunamiDetectionAndMonitoring.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::ANALYSIS::REQUIREMENTS::FUNCTIONAL_REQUIREMENT_PKG</_hsubsystem>
+							<_hname type="a">TsunamiDetectionAndMonitoring</_hname>
+							<_hid type="a">GUID b9dea100-2593-4c5f-9f7b-de7f3bf5e7b3</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\RiskAnalysisAndIntegration.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::ANALYSIS::REQUIREMENTS::FUNCTIONAL_REQUIREMENT_PKG</_hsubsystem>
+							<_hname type="a">RiskAnalysisAndIntegration</_hname>
+							<_hid type="a">GUID 97fe4a6b-c39f-4f6f-89be-b4ccde048f75</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\PublicNotificationAndAlertSystem.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::ANALYSIS::REQUIREMENTS::FUNCTIONAL_REQUIREMENT_PKG</_hsubsystem>
+							<_hname type="a">PublicNotificationAndAlertSystem</_hname>
+							<_hid type="a">GUID feaa8fd8-74a2-42f2-ba0a-e584945d56ad</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\NON_FUNCTIONAL_REQUIREMENT_PKG.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::ANALYSIS::REQUIREMENTS</_hsubsystem>
+							<_hname type="a">NON_FUNCTIONAL_REQUIREMENT_PKG</_hname>
+							<_hid type="a">GUID 24206778-7341-433e-a261-0e3cbe3c8217</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\SYSTEM_CONTEXT.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::ANALYSIS</_hsubsystem>
+							<_hname type="a">SYSTEM_CONTEXT</_hname>
+							<_hid type="a">GUID 5b2f71c0-53c1-44fb-9079-9994168b7bc4</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::ANALYSIS</_hsubsystem>
+							<_hname type="a">SERVICES_UCS</_hname>
+							<_hid type="a">GUID ec93c90b-9a4a-4b25-b489-85a5161bc038</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Blocks.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::ANALYSIS::SERVICES_UCS</_hsubsystem>
+							<_hname type="a">Blocks</_hname>
+							<_hid type="a">GUID 3ce73960-2bf2-468b-9010-16718c44a6b7</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\DESIGN.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD</_hsubsystem>
+							<_hname type="a">DESIGN</_hname>
+							<_hid type="a">GUID af800ed3-851f-47cd-8866-2def0bfb71af</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\WMF.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::DESIGN</_hsubsystem>
+							<_hname type="a">WMF</_hname>
+							<_hid type="a">GUID d9a6471c-f94f-41f5-9611-4f2fbf20fe30</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\OVERVIEW.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::DESIGN::WMF</_hsubsystem>
+							<_hname type="a">OVERVIEW</_hname>
+							<_hid type="a">GUID 7f304aff-1127-45bb-a2fd-2444476ab87a</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\DataAcquisition.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::DESIGN::WMF</_hsubsystem>
+							<_hname type="a">DataAcquisition</_hname>
+							<_hid type="a">GUID f71a0a14-4a91-457f-b9bb-4b8e5ccd5f03</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Mission.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::DESIGN::WMF</_hsubsystem>
+							<_hname type="a">Mission</_hname>
+							<_hid type="a">GUID acf1e47d-ae1b-4ec6-9265-4952e72a357e</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</HandlesInMe>
+			<VariationPoints type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</VariationPoints>
+			<SelectedVariants type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</SelectedVariants>
+			<weakCGTime type="a">1.6.2025::18:30:25</weakCGTime>
+			<strongCGTime type="a">12.30.2024::19:30:13</strongCGTime>
+			<AggregatesList type="e">
+				<value>GUID 4cba9c86-599e-4a3f-ba43-0c678ec6a5b2</value>
+				<value>GUID 9418307d-9762-449a-9926-71fde7b5c8b6</value>
+			</AggregatesList>
+		</IComponent>
+		<IFolder type="e">
+			<_id type="a">GUID 4cba9c86-599e-4a3f-ba43-0c678ec6a5b2</_id>
+			<_myState type="a">73728</_myState>
+			<_name type="a">Files</_name>
+			<_modifiedTimeWeak type="a">12.13.2024::12:50:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2024::12:50:3</_modifiedTime>
+			<Elements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Elements>
+			<Files type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Files>
+		</IFolder>
+		<ICodeGenConfigInfo type="e">
+			<_id type="a">GUID 9418307d-9762-449a-9926-71fde7b5c8b6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DefaultConfig</_name>
+			<_modifiedTimeWeak type="a">1.6.2025::18:30:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.6.2025::18:30:25</_modifiedTime>
+			<_scopeType type="a">Explicit</_scopeType>
+			<_instrumentation type="a">Animation</_instrumentation>
+			<_timeModel type="a">RealTime</_timeModel>
+			<m_generateActors type="a">1</m_generateActors>
+			<_statechartImplementation type="a">Flat</_statechartImplementation>
+			<_checksList type="a">0 ,</_checksList>
+			<_checksList_Default type="a">1</_checksList_Default>
+			<ScopeElements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</ScopeElements>
+			<InitialInstances type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\OVERVIEW.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::DESIGN::WMF::OVERVIEW</_hsubsystem>
+							<_hname type="a">SatelliteDataPreprocessingModule</_hname>
+							<_hid type="a">GUID 0c4ddf5b-a3c7-4892-8c78-34a487e42c43</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\OVERVIEW.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::DESIGN::WMF::OVERVIEW</_hsubsystem>
+							<_hname type="a">DataAcquisition</_hname>
+							<_hid type="a">GUID 6a4e0a55-13fa-403a-9380-b424bd5f3050</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\OVERVIEW.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::DESIGN::WMF::OVERVIEW</_hsubsystem>
+							<_hname type="a">StormDetection</_hname>
+							<_hid type="a">GUID ef967dab-46f0-4a07-baee-76c8600f9e79</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\OVERVIEW.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::DESIGN::WMF::OVERVIEW</_hsubsystem>
+							<_hname type="a">StormPrediction</_hname>
+							<_hid type="a">GUID dd26a4b1-d05b-4ee0-a91d-aef81c86c6c8</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\OVERVIEW.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::DESIGN::WMF::OVERVIEW</_hsubsystem>
+							<_hname type="a">StormTracking</_hname>
+							<_hid type="a">GUID f7844197-ea06-4b7b-8b20-fb6af256d27c</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\OVERVIEW.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::DESIGN::WMF::OVERVIEW</_hsubsystem>
+							<_hname type="a">WeatherDashboard</_hname>
+							<_hid type="a">GUID 95d50f34-ce7f-45ae-9477-bcd0f330d30a</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\OVERVIEW.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::DESIGN::WMF::OVERVIEW</_hsubsystem>
+							<_hname type="a">WeatherUpdate</_hname>
+							<_hid type="a">GUID 1b195d4e-c4d6-432d-b78e-a94648de7383</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\OVERVIEW.sbsx</_hfilename>
+							<_hsubsystem type="a">SMSWTD::DESIGN::WMF::OVERVIEW</_hsubsystem>
+							<_hname type="a">WMFSystem</_hname>
+							<_hid type="a">GUID 1ca4d0fd-c522-4802-96e6-f466c894bc0a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</InitialInstances>
+			<weakCGTime type="a">1.6.2025::18:30:25</weakCGTime>
+			<strongCGTime type="a">1.4.2025::12:56:54</strongCGTime>
+			<AnimScopeElements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</AnimScopeElements>
+			<m_allInAnimScope type="a">1</m_allInAnimScope>
+			<m_generateUsecases type="a">0</m_generateUsecases>
+			<AggregatesList type="e">
+				<value>GUID c754ac11-e315-4db2-b082-09213268d222</value>
+				<value>GUID d26dd5a8-d856-40f6-9fdd-0ba760b60fce</value>
+				<value>GUID 356517c5-25b9-4c3d-8741-921ef8c9d6c4</value>
+			</AggregatesList>
+		</ICodeGenConfigInfo>
+		<IMHyperLink type="e">
+			<_id type="a">GUID c754ac11-e315-4db2-b082-09213268d222</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.30.2024::20:14:48</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Makefile</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">DefaultComponent.mak</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IMHyperLink type="e">
+			<_id type="a">GUID d26dd5a8-d856-40f6-9fdd-0ba760b60fce</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.30.2024::20:14:48</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Main File</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">MainDefaultComponent</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IFolder type="e">
+			<_id type="a">GUID 356517c5-25b9-4c3d-8741-921ef8c9d6c4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DefaultConfig</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2024::12:50:3</_modifiedTime>
+			<Elements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Elements>
+			<Files type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Files>
+		</IFolder>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

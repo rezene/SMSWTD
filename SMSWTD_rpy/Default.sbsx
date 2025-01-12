@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID c6283f3e-66ee-4474-bc74-8bb822d3a3c8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Default</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::15:30:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::15:32:38</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">1.9.2025::15:30:53</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_defaultComposite type="s">GUID f7d4e94b-6b3c-40ad-ae49-bc2f072a9211</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID b8993c2e-ea65-48c7-869c-de16bd2d46cd</value>
+				<value>GUID f7d4e94b-6b3c-40ad-ae49-bc2f072a9211</value>
+				<value>GUID 18edbbbd-4408-4798-81a0-63b8244b2624</value>
+				<value>GUID 5d578d89-2600-4e31-a73c-46161aedb6d6</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IStereotype type="e">
+			<_id type="a">GUID b8993c2e-ea65-48c7-869c-de16bd2d46cd</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">MysqlDriver</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::15:30:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::15:30:53</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<value>Project</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+			<_newTerm type="a">1</_newTerm>
+		</IStereotype>
+		<IClass type="e">
+			<_id type="a">GUID f7d4e94b-6b3c-40ad-ae49-bc2f072a9211</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 18edbbbd-4408-4798-81a0-63b8244b2624</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">block_1</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.4.2025::13:0:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:0:24</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">1.4.2025::13:0:24</weakCGTime>
+			<strongCGTime type="a">12.23.2024::18:59:6</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID fd32bf08-913f-4b32-be8c-353acfbb31c6</value>
+				<value>GUID b7a4cb45-b7f5-4164-a78b-483c43bd9c6c</value>
+				<value>GUID cf13b370-4d1d-4681-893b-fbae9a1e3ddc</value>
+			</AggregatesList>
+		</IClass>
+		<IPort type="e">
+			<_id type="a">GUID fd32bf08-913f-4b32-be8c-353acfbb31c6</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">port_0</_name>
+			<_modifiedTimeWeak type="a">12.23.2024::18:59:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.23.2024::18:59:13</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID bcf4319c-0dae-42ba-88dd-8024d0fcf62a</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID bcf4319c-0dae-42ba-88dd-8024d0fcf62a</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">port_0_implicitContract</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+								<_hname type="a">Interface</_hname>
+								<_hid type="a">GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">12.23.2024::18:59:13</_modifiedTimeWeak>
+				<_modifiedTime type="a">12.23.2024::18:59:13</_modifiedTime>
+				<weakCGTime type="a">12.23.2024::18:59:13</weakCGTime>
+				<strongCGTime type="a">12.23.2024::18:59:13</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+			</IClass>
+			</_implicitClass>
+		</IPort>
+		<ISysMLPort type="e">
+			<_id type="a">GUID b7a4cb45-b7f5-4164-a78b-483c43bd9c6c</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">flowport_2</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">flowPort</_hname>
+							<_hid type="a">GUID e38cbf02-1c06-464c-927e-6e2c6c764315</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.23.2024::18:59:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.23.2024::18:59:18</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 6d422690-d686-45b9-af0e-f895e4ecc699</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 6d422690-d686-45b9-af0e-f895e4ecc699</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">flowport_2_implicitType</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+								<_hname type="a">Interface</_hname>
+								<_hid type="a">GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">12.23.2024::18:59:18</_modifiedTimeWeak>
+				<_modifiedTime type="a">12.23.2024::18:59:18</_modifiedTime>
+				<weakCGTime type="a">12.23.2024::18:59:18</weakCGTime>
+				<strongCGTime type="a">12.23.2024::18:59:18</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+			</IClass>
+			</_implicitClass>
+			<_direction type="a">InOut</_direction>
+		</ISysMLPort>
+		<IPort type="e">
+			<_id type="a">GUID cf13b370-4d1d-4681-893b-fbae9a1e3ddc</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">port_3</_name>
+			<_modifiedTimeWeak type="a">12.23.2024::18:59:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.23.2024::18:59:28</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID a66fdfc6-336b-475e-98c9-bf15c2ff2a09</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID a66fdfc6-336b-475e-98c9-bf15c2ff2a09</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">port_3_implicitContract</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+								<_hname type="a">Interface</_hname>
+								<_hid type="a">GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">12.23.2024::18:59:28</_modifiedTimeWeak>
+				<_modifiedTime type="a">12.23.2024::18:59:28</_modifiedTime>
+				<weakCGTime type="a">12.23.2024::18:59:28</weakCGTime>
+				<strongCGTime type="a">12.23.2024::18:59:28</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+			</IClass>
+			</_implicitClass>
+		</IPort>
+		<IClass type="e">
+			<_id type="a">GUID 5d578d89-2600-4e31-a73c-46161aedb6d6</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">block_3</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.4.2025::13:0:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:0:24</_modifiedTime>
+			<weakCGTime type="a">1.4.2025::13:0:24</weakCGTime>
+			<strongCGTime type="a">12.23.2024::18:59:42</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

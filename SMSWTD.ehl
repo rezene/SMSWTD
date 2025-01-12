@@ -1,0 +1,7 @@
+[Op Calls]
+[Events]
+itsSatellite_1->GEN(evtSatelliteTrunOn())`SMSWTD::DESIGN::WMF::OVERVIEW::Satellite
+itsSatellite_2->GEN(evtSatelliteTrunOn())`SMSWTD::DESIGN::WMF::OVERVIEW::Satellite
+itsSatellite->GEN(evtSatelliteTrunOn())`SMSWTD::DESIGN::WMF::OVERVIEW::Satellite
+itsSatellite_1->GEN(evtSatelliteTrunOn())`Satellite
+[Breakpoints]

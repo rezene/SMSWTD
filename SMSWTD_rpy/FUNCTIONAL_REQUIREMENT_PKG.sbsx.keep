@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 36905b46-105c-4a11-a08f-4c868a69f709</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">FUNCTIONAL_REQUIREMENT_PKG</_name>
+			<Annotations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Annotations>
+			<_modifiedTimeWeak type="a">12.30.2024::19:48:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.30.2024::19:51:8</_modifiedTime>
+			<_lastID type="a">40</_lastID>
+			<weakCGTime type="a">12.30.2024::19:48:51</weakCGTime>
+			<strongCGTime type="a">12.16.2024::10:45:1</strongCGTime>
+			<_defaultComposite type="s">GUID 917661c2-b61e-4417-9b1d-71ea4b4372fc</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 65affc54-825e-48df-a1cc-dedc5157f2fe</value>
+				<value>GUID b9dea100-2593-4c5f-9f7b-de7f3bf5e7b3</value>
+				<value>GUID 97fe4a6b-c39f-4f6f-89be-b4ccde048f75</value>
+				<value>GUID feaa8fd8-74a2-42f2-ba0a-e584945d56ad</value>
+				<value>GUID 917661c2-b61e-4417-9b1d-71ea4b4372fc</value>
+				<value>GUID 96e5cd8f-474c-4877-a648-2e4e87fffd73</value>
+				<value>GUID 04cf08f8-ff5b-495e-b799-c76e50df61c7</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">WeatherMonitoringAndForecasting</fileName>
+			<_id type="a">GUID 65affc54-825e-48df-a1cc-dedc5157f2fe</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">TsunamiDetectionAndMonitoring</fileName>
+			<_id type="a">GUID b9dea100-2593-4c5f-9f7b-de7f3bf5e7b3</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">RiskAnalysisAndIntegration</fileName>
+			<_id type="a">GUID 97fe4a6b-c39f-4f6f-89be-b4ccde048f75</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">PublicNotificationAndAlertSystem</fileName>
+			<_id type="a">GUID feaa8fd8-74a2-42f2-ba0a-e584945d56ad</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 917661c2-b61e-4417-9b1d-71ea4b4372fc</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::9:46:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">12.16.2024::9:46:52</weakCGTime>
+			<strongCGTime type="a">12.16.2024::9:46:52</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 96e5cd8f-474c-4877-a648-2e4e87fffd73</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">block_20</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.16.2024::9:46:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2024::15:1:29</_modifiedTime>
+			<weakCGTime type="a">12.16.2024::9:46:52</weakCGTime>
+			<strongCGTime type="a">12.16.2024::9:46:52</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 04cf08f8-ff5b-495e-b799-c76e50df61c7</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">block_22</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.16.2024::9:46:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2024::15:1:29</_modifiedTime>
+			<weakCGTime type="a">12.16.2024::9:46:52</weakCGTime>
+			<strongCGTime type="a">12.16.2024::9:46:52</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

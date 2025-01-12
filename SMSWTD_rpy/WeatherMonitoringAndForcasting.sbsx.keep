@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 08b1b815-4378-4d1e-9406-6b093ed7bcf7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">WeatherMonitoringAndForcasting</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::9:41:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::9:41:32</_modifiedTime>
+			<weakCGTime type="a">1.9.2025::9:41:32</weakCGTime>
+			<strongCGTime type="a">1.9.2025::9:39:44</strongCGTime>
+			<_defaultComposite type="s">GUID e06419b7-4595-49a0-9059-28c89644f627</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.9.2025::9:40:46</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 48ccbfc0-4480-44c5-b153-c07462f3a367</value>
+				<value>GUID c05a16b5-f888-4b7f-97b7-366ce0b50217</value>
+				<value>GUID 0f059fed-1f57-4588-9b88-90b1c3db367d</value>
+				<value>GUID c33e68fd-09b2-4c98-88da-4b878f90f557</value>
+				<value>GUID b748e0dd-9e73-4375-a20b-78b288dbc455</value>
+				<value>GUID d4151244-9d61-49f1-b293-3c3b98876263</value>
+				<value>GUID e7d1aac1-d804-43ab-8a16-5ac17ea13588</value>
+				<value>GUID fe9e11ad-eff7-402d-808a-5ccc247962ed</value>
+				<value>GUID aa389cb0-8fd7-42d9-84c8-8c2ddf4261a0</value>
+				<value>GUID 6a278607-cf3e-475e-bf09-8efd2d688b85</value>
+				<value>GUID d4ec5394-e857-4354-b41c-c1f13c7e2480</value>
+				<value>GUID e06419b7-4595-49a0-9059-28c89644f627</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 48ccbfc0-4480-44c5-b153-c07462f3a367</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Accuracy</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::9:41:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::9:41:32</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall have cluster of sensors.\par%0D
+}%0D
+</_body>
+			<reqID type="a">32</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID c05a16b5-f888-4b7f-97b7-366ce0b50217</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Availability</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::9:41:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::9:41:32</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall be in operation 24/7 in any weather condition. \par%0D
+}%0D
+</_body>
+			<reqID type="a">31</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 0f059fed-1f57-4588-9b88-90b1c3db367d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Compliance</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::9:41:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::9:41:32</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall meet regulariy compliance such as National Oceanic and Atmospheric Administration (NOAA) and certification.\par%0D
+}%0D
+</_body>
+			<reqID type="a">362</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID c33e68fd-09b2-4c98-88da-4b878f90f557</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Environmental Consideration</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::9:41:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::9:41:32</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall use sensors and equipment designed to be withstand harsh environmental conditions (e.g salt water, extreme tempratures). In addition, the system should minimize energy consumption by batteries and solar energy.\par%0D
+}%0D
+</_body>
+			<reqID type="a">38</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID b748e0dd-9e73-4375-a20b-78b288dbc455</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Integration</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::9:41:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::9:41:32</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall fulfill interoperability and cummunication network.\par%0D
+}%0D
+</_body>
+			<reqID type="a">361</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID d4151244-9d61-49f1-b293-3c3b98876263</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Modifability</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::9:41:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::9:41:32</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall low the cost of modifications. \par%0D
+}%0D
+</_body>
+			<reqID type="a">33</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID e7d1aac1-d804-43ab-8a16-5ac17ea13588</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">NONFUNC_SMSWTD</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::9:41:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::9:41:32</_modifiedTime>
+			<_lastID type="a">8</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall satisfy the modifability, scalability, availablity, accuracy, reliability, qualification, and performance.\par%0D
+}%0D
+</_body>
+			<reqID type="a">3</reqID>
+			<AggregatesList type="e">
+				<value>GUID 5f5017a5-55a1-472d-b128-cf5925b06322</value>
+				<value>GUID 8b362e7d-a25d-44ee-9ccd-e09bf17246be</value>
+				<value>GUID 230ba99c-1599-47b4-8cbd-4c4ab671f314</value>
+				<value>GUID 7f5c1c47-8434-444e-bf19-6d5de750c2e9</value>
+				<value>GUID 9562171c-b0c1-4438-8db2-bd4664680063</value>
+				<value>GUID 42b9ca68-a666-4b39-a154-06aa51867f2b</value>
+				<value>GUID 4333609b-e3be-4394-8810-0ef0f0e9f453</value>
+				<value>GUID 6d941a8c-69a4-4503-a4a8-7f5680aade95</value>
+			</AggregatesList>
+		</IRequirement>
+		<IAnchor type="e">
+			<_id type="a">GUID 5f5017a5-55a1-472d-b128-cf5925b06322</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">anchor_0</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::8:57:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::8:57:14</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID c05a16b5-f888-4b7f-97b7-366ce0b50217</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+		</IAnchor>
+		<IAnchor type="e">
+			<_id type="a">GUID 8b362e7d-a25d-44ee-9ccd-e09bf17246be</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">anchor_1</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::8:57:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::8:57:28</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 6a278607-cf3e-475e-bf09-8efd2d688b85</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+		</IAnchor>
+		<IAnchor type="e">
+			<_id type="a">GUID 230ba99c-1599-47b4-8cbd-4c4ab671f314</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">anchor_2</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::8:57:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::8:57:32</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 48ccbfc0-4480-44c5-b153-c07462f3a367</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+		</IAnchor>
+		<IAnchor type="e">
+			<_id type="a">GUID 7f5c1c47-8434-444e-bf19-6d5de750c2e9</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">anchor_3</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::8:57:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::8:57:35</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID d4ec5394-e857-4354-b41c-c1f13c7e2480</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+		</IAnchor>
+		<IAnchor type="e">
+			<_id type="a">GUID 9562171c-b0c1-4438-8db2-bd4664680063</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">anchor_4</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::8:57:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::8:57:39</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID d4151244-9d61-49f1-b293-3c3b98876263</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+		</IAnchor>
+		<IAnchor type="e">
+			<_id type="a">GUID 42b9ca68-a666-4b39-a154-06aa51867f2b</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">anchor_5</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::9:5:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::9:5:3</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID aa389cb0-8fd7-42d9-84c8-8c2ddf4261a0</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+		</IAnchor>
+		<IAnchor type="e">
+			<_id type="a">GUID 4333609b-e3be-4394-8810-0ef0f0e9f453</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">anchor_6</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::9:14:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::9:14:42</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID fe9e11ad-eff7-402d-808a-5ccc247962ed</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+		</IAnchor>
+		<IAnchor type="e">
+			<_id type="a">GUID 6d941a8c-69a4-4503-a4a8-7f5680aade95</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">anchor_7</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::9:18:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::9:18:22</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID c33e68fd-09b2-4c98-88da-4b878f90f557</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+		</IAnchor>
+		<IRequirement type="e">
+			<_id type="a">GUID fe9e11ad-eff7-402d-808a-5ccc247962ed</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Performance</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::9:41:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::9:41:32</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 THe SMSWTD shall respond to the tsunami at specified time frame and capable of processing large volumes of data quickly.\par%0D
+}%0D
+</_body>
+			<reqID type="a">37</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID aa389cb0-8fd7-42d9-84c8-8c2ddf4261a0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Qualification</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::9:41:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::9:41:32</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall qualify technical qualities and qualification standards.\par%0D
+}%0D
+</_body>
+			<reqID type="a">36</reqID>
+			<AggregatesList type="e">
+				<value>GUID 1626d5ab-c135-4311-88ea-74b02b74778e</value>
+				<value>GUID 1408e429-707f-4d11-8be4-873244a55360</value>
+			</AggregatesList>
+		</IRequirement>
+		<IAnchor type="e">
+			<_id type="a">GUID 1626d5ab-c135-4311-88ea-74b02b74778e</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">anchor_0</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::9:5:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::9:5:7</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID b748e0dd-9e73-4375-a20b-78b288dbc455</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+		</IAnchor>
+		<IAnchor type="e">
+			<_id type="a">GUID 1408e429-707f-4d11-8be4-873244a55360</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">anchor_1</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::9:10:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::9:10:24</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 0f059fed-1f57-4588-9b88-90b1c3db367d</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+		</IAnchor>
+		<IRequirement type="e">
+			<_id type="a">GUID 6a278607-cf3e-475e-bf09-8efd2d688b85</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Reliability</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::9:41:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::9:41:32</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall have consistency, fault tolenrance, and repeatability of measurement overtime.\par%0D
+}%0D
+</_body>
+			<reqID type="a">35</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID d4ec5394-e857-4354-b41c-c1f13c7e2480</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Scalability</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::9:41:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::9:41:32</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall have allow the expansion of the capacity to monitor the weather thorough out country.\par%0D
+}%0D
+</_body>
+			<reqID type="a">34</reqID>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID e06419b7-4595-49a0-9059-28c89644f627</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 3ce73960-2bf2-468b-9010-16718c44a6b7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Blocks</_name>
+			<_modifiedTimeWeak type="a">1.4.2025::13:7:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:7:26</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">1.4.2025::13:7:26</weakCGTime>
+			<strongCGTime type="a">12.16.2024::14:14:1</strongCGTime>
+			<_defaultComposite type="s">GUID a03d2ec1-318e-4121-a630-06373a54eb3b</_defaultComposite>
+			<_eventsBaseID type="a">27601</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.4.2025::13:7:26</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID a03d2ec1-318e-4121-a630-06373a54eb3b</value>
+				<value>GUID 4f65a511-16fc-408c-8d9e-760640339f98</value>
+				<value>GUID dc590aee-8e80-4f9b-ba8b-403f7245730a</value>
+				<value>GUID d7029d25-c493-4234-be58-7d17995be9be</value>
+				<value>GUID de19c39b-cd41-4957-b1bf-f97983895d0e</value>
+				<value>GUID 81f19dd7-e0a3-414f-bc90-16aba52e744c</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID a03d2ec1-318e-4121-a630-06373a54eb3b</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IEvent type="e">
+			<_id type="a">GUID 4f65a511-16fc-408c-8d9e-760640339f98</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evtMakeSatelliteReady</_name>
+			<_modifiedTimeWeak type="a">1.4.2025::12:37:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::12:37:42</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID dc590aee-8e80-4f9b-ba8b-403f7245730a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evtSatelliteOff</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID d7029d25-c493-4234-be58-7d17995be9be</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evtCaptureData</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID de19c39b-cd41-4957-b1bf-f97983895d0e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evtSendData</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 81f19dd7-e0a3-414f-bc90-16aba52e744c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evt</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
